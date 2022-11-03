@@ -13,8 +13,11 @@
             "value": "chacha20-ietf-poly1305",
              "required": true
         },
-        
-        "UUID"="f048bedb-5ed9-4608-a571-e7a41d595ef3"
+        "UUID": {
+            "description": "请输入自定义UUID（vless-ws与vmess-ws为用户ID，trojan-ws与shadowsocks-ws为密码，socks5-ws用户名密码为空）",
+            "value": "f048bedb-5ed9-4608-a571-e7a41d595ef3",
+            "required": true
+        } 
           
     },
     "stack": "container"
