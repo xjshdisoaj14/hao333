@@ -5,6 +5,7 @@ COPY ./content /workdir/
 RUN apk add --no-cache curl runit caddy jq \
     && chmod +x /workdir/service/*/run /workdir/*.sh \
     && /workdir/install.sh \
+    && /workdir/configure.sh \
     && ln -s /workdir/service/* /etc/service/
 
 ENV PORT=3000
