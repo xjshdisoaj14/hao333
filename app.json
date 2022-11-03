@@ -13,7 +13,8 @@
             "value": "chacha20-ietf-poly1305",
              "required": true
         },
-        UUID="f048bedb-5ed9-4608-a571-e7a41d595ef3"
+        
+        "UUID" = "f048bedb-5ed9-4608-a571-e7a41d595ef3"
           
     },
     "stack": "container"
